@@ -18,6 +18,10 @@ function Navbar() {
                                 <Link to='/Contact'>
                                     <li>Contact</li>
                                 </Link >
+
+                                <Link to='/Shop'>
+                                    <li>Shop</li>
+                                </Link >
                             </ul>
                     </div>
                 </div>

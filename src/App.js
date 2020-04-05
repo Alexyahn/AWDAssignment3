@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import Shop from './components/Shop';
 
 class App extends Component {
     render() {
@@ -19,6 +20,7 @@ class App extends Component {
                         <Route path="/Home" component={Home} />
                         <Route path="/About" component={About} />
                         <Route path="/Contact" component={Contact} />
+                        <Route path="/Shop" component={Shop} />
                     </Switch>
                 </Router>
             </div>

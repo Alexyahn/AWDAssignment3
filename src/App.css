@@ -48,7 +48,7 @@ nav {
 li {
     display: inline;
     padding-left: 5em;
-    margin-left: -85%;
+    margin-left: -105%;
 }
 
 .nav-links {
@@ -79,4 +79,9 @@ a:hover {
 .homeContent {
     text-align: center;
     margin-top: 10%;
+}
+
+.shopContent {
+    text-align: center;
+    margin-top: 7%;
 }

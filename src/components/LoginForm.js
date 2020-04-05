@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useState } from 'react';
 import { Link } from "react-router-dom";
 
 
 function LoginForm() {
+
+    const displayMessage = (
+        alert("You have logged in successfully!")
+    )
+
     return <form className="menu">
                 <div className="formBox">
                     <img src="https://www.csp.edu/wp-content/themes/csponline/assets/images/logo.svg" alt="Concordia Logo" />
@@ -22,8 +27,8 @@ function LoginForm() {
                     </div>
                     </div>
 
-                    <Link to="/Home">
-                        <button type="submit" className="btn-primary">Sign in</button>
+                    <Link to="/Shop">
+                        <button onClick={displayMessage} type="submit" className="btn-primary">Sign in</button>
                     </Link >
                 </div>
             </form>
