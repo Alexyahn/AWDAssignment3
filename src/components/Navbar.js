@@ -22,6 +22,10 @@ function Navbar() {
                                 <Link to='/Shop'>
                                     <li>Shop</li>
                                 </Link >
+
+                                <Link to='/Blank'>
+                                    <li>Assingment 5</li>
+                                </Link >
                             </ul>
                     </div>
                 </div>
