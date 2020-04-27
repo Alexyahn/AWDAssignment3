@@ -9,6 +9,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Shop from './components/Shop';
 import Blank from './components/Blank';
+import Users from './components/Users';
 
 class App extends Component {
     render() {
@@ -23,6 +24,7 @@ class App extends Component {
                         <Route path="/Contact" component={Contact} />
                         <Route path="/Shop" component={Shop} />
                         <Route path="/Blank" component={Blank} />
+                        <Route path="/Users" component={Users} />
                     </Switch>
                 </Router>
             </div>

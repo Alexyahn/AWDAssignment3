@@ -26,6 +26,10 @@ function Navbar() {
                                 <Link to='/Blank'>
                                     <li>Assingment 5</li>
                                 </Link >
+
+                                <Link to='/Users'>
+                                    <li>Users</li>
+                                </Link >
                             </ul>
                     </div>
                 </div>
